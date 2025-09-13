@@ -1,0 +1,38 @@
+{
+<<<<<<< HEAD
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+=======
+<<<<<<< HEAD
+>>>>>>> 8fc9260 (Обновления: <кратко что поменял>)
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+<<<<<<< HEAD
+=======
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+=======
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+>>>>>>> 8fc9260 (Обновления: <кратко что поменял>)
+      "@/*": ["./src/*"]
+    },
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": false
+  }
+<<<<<<< HEAD
+=======
+>>>>>>> ce91b62 (Обновления: <кратко что поменял>)
+>>>>>>> 8fc9260 (Обновления: <кратко что поменял>)
+}

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -39,22 +39,22 @@ const Navbar = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <div className="flex-shrink-0">
-                <Link to="/" className="text-2xl font-bold">
+                <Link href="/" className="text-2xl font-bold">
                   FoodSave
                 </Link>
               </div>
               
               <nav className="hidden md:flex items-center space-x-2">
-                <Link to="/app" className={linkClasses('/app')}>
+                <Link href="/app" className={linkClasses('/app')}>
                   ПРИЛОЖЕНИЕ
                 </Link>
-                <Link to="/business" className={linkClasses('/business')}>
+                <Link href="/business" className={linkClasses('/business')}>
                   ДЛЯ БИЗНЕСА
                 </Link>
-                <Link to="/about" className={linkClasses('/about')}>
-                  О НАС
+                <Link href="/about" className={linkClasses('/about')}>
+                  О ПРОЕКТЕ
                 </Link>
-                <Link to="/foodwaste" className={linkClasses('/foodwaste')}>
+                <Link href="/foodwaste" className={linkClasses('/foodwaste')}>
                   О ФУДВЕЙСТЕ
                 </Link>
               </nav>
